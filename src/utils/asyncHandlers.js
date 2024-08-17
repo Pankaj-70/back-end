@@ -1,10 +1,11 @@
 const asyncHandler=(requestHandler)=>{
-    (err,req,res,next)=>{
-        try {
-            
-        } catch (error) {
-            res.status()
-        }
+    async (err,req,res,next)=>{
+        Promise.resolve(
+            await requestHandler(err,req,res,next)
+        )
+        .catch((err)=>{
+            console.log("Error is: ",err);
+        })
     }
 }
 
