@@ -15,8 +15,15 @@
     "prettier": "^3.3.3"
   },
   "dependencies": {
+<<<<<<< HEAD
     "express": "^4.19.2",
     "mongodb": "^6.8.0",
+=======
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+>>>>>>> e5d246f1a80d1cbd2d887d1d54e34d8789ff2146
     "mongoose": "^8.5.3"
   }
 }
