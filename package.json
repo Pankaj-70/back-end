@@ -10,30 +10,17 @@
   "author": "Pankaj Sharma",
   "license": "ISC",
   "devDependencies": {
-    "dotenv": "^16.4.5",
     "nodemon": "^3.1.4",
     "prettier": "^3.3.3"
   },
   "dependencies": {
-<<<<<<< HEAD
     "bcrypt": "^5.1.1",
-=======
-<<<<<<< HEAD
-    "express": "^4.19.2",
-    "mongodb": "^6.8.0",
-=======
->>>>>>> a852ecc4178f6da2ad4c12ff625668bb3b98733c
     "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-<<<<<<< HEAD
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.5.3",
     "mongoose-aggregate-paginate-v2": "^1.1.2"
-=======
->>>>>>> e5d246f1a80d1cbd2d887d1d54e34d8789ff2146
-    "mongoose": "^8.5.3"
->>>>>>> a852ecc4178f6da2ad4c12ff625668bb3b98733c
   }
 }
