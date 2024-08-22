@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 export const DB_NAME="database1"
 =======
 export const DB_NAME="database1"
