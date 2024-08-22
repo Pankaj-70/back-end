@@ -1,7 +1,7 @@
 const asyncHandler=(requestHandler)=>{
-    async (err,req,res,next)=>{
+    return (req,res)=>{
         Promise.resolve(
-            await requestHandler(err,req,res,next)
+            requestHandler(req,res)
         )
         .catch((err)=>{
             console.log("Error is: ",err);
